@@ -1,0 +1,33 @@
+{
+  "name": "node-user-registration-rest-api",
+  "version": "1.0.0",
+  "description": "A simple node boilerplate for user registration",
+  "author": "Pankaj Kumar <pankaj21singh@gmail.com>",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src/. ./test/.",
+    "pretest": "npm run lint"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "http-status": "^1.5.0",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.9.22",
+    "nodemailer": "^6.4.17",
+    "validator": "^13.5.2",
+    "winston": "^3.3.3",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "nodemon": "^2.0.7"
+  }
+}
